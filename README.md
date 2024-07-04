@@ -21,6 +21,8 @@ C_{3} = G_{2} + P_{2} C_{2} = G_{2} + P_{2} G_{1} + P_{2} P_{1} G_{0} + P_{2} P_
 C_{4} = G_{3} + P_{3} C_{3} = G_{3} + P_{3} G_{2} + P_{3} P_{2} G_{1} + P_{3} P_{2} P_{1} G_{0} + P_{3} P_{2} P_{1} P_{0} C_{in}      
 
 
+
 THE OUTPUT:
+
 
 ![Screenshot 2024-07-04 123846](https://github.com/panda12384/carry-look-ahead-adder/assets/160568759/241f3759-df4c-4153-9e7f-8cca36bdbbf3)
