@@ -11,9 +11,13 @@ transformed such that the carry logic over fixed groups of bits of the adder is 
 ![digital_Logic6](https://github.com/panda12384/carry-look-ahead-adder/assets/160568759/24ef63a7-0d5c-45ec-8b77-0f744abbbba2)
 
 THE FORMULA:
+
 C_{1} = G_{0} + P_{0} C_{in} 
-C_{2} = G_{1} + P_{1} C_{1} = G_{1} + P_{1} G_{0} + P_{1} P_{0} C_{in} 
+
+C_{2} = G_{1} + P_{1} C_{1} = G_{1} + P_{1} G_{0} + P_{1} P_{0} C_{in}
+
 C_{3} = G_{2} + P_{2} C_{2} = G_{2} + P_{2} G_{1} + P_{2} P_{1} G_{0} + P_{2} P_{1} P_{0} C_{in} 
+
 C_{4} = G_{3} + P_{3} C_{3} = G_{3} + P_{3} G_{2} + P_{3} P_{2} G_{1} + P_{3} P_{2} P_{1} G_{0} + P_{3} P_{2} P_{1} P_{0} C_{in}      
 
 
